@@ -6,13 +6,13 @@ import schedule
 
 # Токены ваших ботов
 
-admin_bot = telebot.TeleBot("7368960650:AAHVOmgtI_unhL4sR213eHhzTIv96wUijlQ")
+admin_bot = telebot.TeleBot("")
 
 # Идентификатор чата администраторского бота
-admin_chat_id = "1562974695"  # Замените на ID вашего чата
+admin_chat_id = ""  # Замените на ID вашего чата
 
 # Идентификатор канала
-channel_id = "-1002160441690"  # Замените на ID вашего канала
+channel_id = ""  # Замените на ID вашего канала
 
 # Словарь для хранения информации о сообщениях пользователей
 user_messages = {}
