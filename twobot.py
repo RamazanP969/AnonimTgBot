@@ -5,14 +5,14 @@ import time
 import schedule
 import os
 # Токены ваших ботов
-bot = telebot.TeleBot("7343479877:AAFcx2mB6d-S5NEqJp7-BSBW5HzBA7ypfks")
-admin_bot = telebot.TeleBot("7368960650:AAHVOmgtI_unhL4sR213eHhzTIv96wUijlQ")
+bot = telebot.TeleBot("")
+admin_bot = telebot.TeleBot("")
 
 # Идентификатор чата администраторского бота
-admin_chat_id = "1562974695"  # Замените на ID вашего чата
+admin_chat_id = ""  # Замените на ID вашего чата
 
 # Идентификатор канала
-channel_id = "-1002065455575"  # Замените на ID вашего канала
+channel_id = ""  # Замените на ID вашего канала
 
 # Словарь для хранения информации о сообщениях пользователей
 user_messages = {}
